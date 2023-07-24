@@ -1,52 +1,59 @@
-*,
-*:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Roboto Mono", monospace;
-    font-size: 18px;
-}
 body{
-    background-color:palevioletred;
+    background-color: black;
+    
+    
+    color: white;
+    letter-spacing:1px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
-.wrapper{
-    width: 450px;
-    background-color: #ffffff;
-    padding: 70px 40px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
-    border-radius: 8px;
+
+#footer:hover{
+    color:rgb(252, 123, 4);
+    position: sticky;
+    bottom: 0;
+    text-align:center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: large;
+    transition: 1s;
+      
+}
+/* font family of text below */
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: large;
+}
+
+#contactUs{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: larger;
+    
+}
+
+#contactInfo{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: larger;
+    
+    
+
+}
+
+.Para2{
+    text-align:right;
+    padding:100px;
+}
+
+#Img2{ 
+    margin-right: 10px; 
+}
+
+.Para2 {
+    direction: rtl;
+   }
+
+#button{
     display: flex;
-    justify-content: space-between;
-}
-.container{
-    width: 45%;
-}
-input{
-    width: 100%;
-    height: 50px;
-    border-radius: 5px;
-    border: 2px solid #d2d2d2;
-    outline: none;
-    margin-top: 8px;
-    padding: 0 10px;
-}
-input:focus{
-    border-color: #3164ff;
-}
-p{
-    padding: 20px 40px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 25%;
-    top: 15%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-   
-
-
+    justify-content: center;
+    
 }
